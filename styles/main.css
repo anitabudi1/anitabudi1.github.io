@@ -1,0 +1,110 @@
+body {
+    background-color: darkgoldenrod;
+    margin: 0px;
+}
+h1 {
+    color: burlywood;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+}
+h3 {
+    color: brown;
+}
+
+
+:active {
+    color: chartreuse;
+}
+
+    a:hover { 
+        color: blue;
+    }
+
+
+    a:visited {
+        color: chartreuse;
+    }
+
+
+
+.logo {text-align: center;}
+.jumbotron {
+    background-color:navy;
+    border: solid 1px aquamarine;
+    border-radius: 8px;
+}
+
+.container {
+    background-color: aqua;
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+    text-align: center;
+}
+
+/* menu header - BEGIN */
+.menu-header {
+    background-color:pink;
+    border-radius: 40px;
+    box-shadow: 
+    0 3px 5px -1px rgba(red, green, blue, alpha),
+    0 6px 10px 0 rgba(red, green, blue, alpha),
+    0 1px 18px 0 rgba(red, rgba(0, 128, 0, 0.699), blue, alpha);
+}
+.menu-header  li {
+    display: inline-block;
+}
+
+.menu-header a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+}
+.menu-header a:hover {
+    color: gold;
+}
+.footer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    background-color:papayawhip;
+    padding: 10px 0px;
+    font-size: 15px;
+    text-align: center;
+}
+/* card home - begin */
+.cardhome 
+{
+    background-color:burlywood;
+    width: 30%;
+    height: 250px;
+    border-radius:0px 0px 20px 20px;
+    box-shadow:0 4px 8px 0 rgba(red, rgba(0, 0, 0, 0.2), blue, alpha);
+}
+/* card home - begin */
+.cardhead {
+    margin: 0px;
+    height: 30px;
+    border-bottom: solid 1px red;
+    padding: 10px 0px;
+}
+.cardhead h3 {
+    text-align: center;
+    margin: 10px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cardbody {
+    padding: 10px;
+    text-align: center;
+}
+.cardbody {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+
+.cardflex {
+    display: flex;
+    justify-content: space-between;
+}
